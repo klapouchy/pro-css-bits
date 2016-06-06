@@ -72,14 +72,14 @@ img:after {
 }
 ```
 
-### Use CSS content to separate lists - [CodePen](http://codepen.io/eeyore/pen/BzoyGG "View CodePen") 
+### Add commans to a list - [CodePen](http://codepen.io/eeyore/pen/BzoyGG "View CodePen") 
 ```css
 ul > li:not(:last-child)::after {
   content: ",";
 }
 ```
 
-### Use `:not` to remove styles
+### Use `:not` to remove styles - [CodePen](http://codepen.io/eeyore/pen/wWKBON "View CodePen")
 ```css
 .list li:not(:last-child) {
   border-right: 1px solid #000;
