@@ -72,7 +72,7 @@ img:after {
 }
 ```
 
-### Add commans to a list - [CodePen](http://codepen.io/eeyore/pen/BzoyGG "View CodePen") 
+### Use CSS content to separate lists - [CodePen](http://codepen.io/eeyore/pen/BzoyGG "View CodePen") 
 ```css
 ul > li:not(:last-child)::after {
   content: ",";
